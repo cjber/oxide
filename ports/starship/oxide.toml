@@ -1,0 +1,47 @@
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_state\
+$git_status\
+$cmd_duration\
+$line_break\
+$python\
+$lua\
+$shlvl\
+$character\
+"""
+
+[directory]
+style = "#e78a53"  # orange
+read_only = " "
+
+[character]
+success_symbol = "[::](#e78a53)"  # orange
+error_symbol = "[::](#5f8787)"    # teal
+vimcmd_symbol = "[;;](#fbcb97)"   # peach
+
+[git_branch]
+format = "[$branch]($style)"
+style = "#5f8787"  # teal
+
+[git_status]
+format = "[[(*$conflicted$untracked$modified$staged$renamed$deleted)](#fbcb97) ($ahead_behind$stashed)]($style)"
+style = "#999999"
+ahead = "⇡${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+behind = "⇣${count}"
+stashed = "📦"
+
+[git_state]
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+style = "#e78a53"
+
+[cmd_duration]
+format = "[$duration]($style) "
+style = "#999999"
+
+[python]
+format = "[$virtualenv]($style) "
+style = "#5f8787"

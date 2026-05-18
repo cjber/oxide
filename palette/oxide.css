@@ -1,0 +1,24 @@
+:root {
+    /* Surfaces */
+    --oxide-background:       #121113;
+    --oxide-background-alt:   #0a0a0a;
+    --oxide-surface:          #1a1a1c;
+    --oxide-surface-alt:      #222222;
+    --oxide-border:           #333333;
+
+    /* Text */
+    --oxide-foreground:       #c1c1c1;
+    --oxide-foreground-alt:   #b0b0b0;
+    --oxide-foreground-dim:   #777777;
+    --oxide-comment:          #555555;
+    --oxide-muted:            #999999;
+
+    /* Accents */
+    --oxide-primary:          #e78a53; /* rust orange */
+    --oxide-primary-dim:      #d77a43;
+    --oxide-secondary:        #5f8787; /* teal */
+    --oxide-secondary-bright: #6f9797;
+    --oxide-accent:           #fbcb97; /* peach */
+    --oxide-destructive:      #c75a5a;
+    --oxide-success:          #6a9955;
+}

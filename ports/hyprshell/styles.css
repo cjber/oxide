@@ -1,0 +1,94 @@
+/* Oxide palette + JetBrains Mono — match rofi shadcn / hyprland.lua look */
+
+:root {
+    --border-color: rgba(34, 34, 34, 1);          /* surface0 */
+    --border-color-active: rgba(231, 138, 83, 1); /* primary */
+
+    --bg-color: rgba(18, 17, 19, 0.95);           /* base */
+    --bg-color-hover: rgba(34, 34, 34, 1);        /* surface0 */
+
+    --border-radius: 12px;
+    --border-size: 2px;
+    --border-style: solid;
+
+    --text-color: rgba(193, 193, 193, 1);         /* text */
+
+    --window-padding: 6px;
+    --bg-window-color: rgba(18, 17, 19, 0.98);
+}
+
+* {
+    font-family: "JetBrainsMono Nerd Font Mono", monospace;
+    font-size: 12px;
+}
+
+label {
+    color: var(--text-color);
+}
+
+/* Overview ---------------------------------------------------------- */
+
+.workspace {
+    font-size: 11px;
+    font-weight: bold;
+    color: rgba(95, 135, 135, 1);                 /* secondary */
+}
+
+.workspace.active {
+    color: rgba(231, 138, 83, 1);                 /* primary */
+}
+
+.client {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.client.active {
+    border-color: rgba(231, 138, 83, 1);          /* primary */
+}
+
+/* Launcher (shows alongside overview) ------------------------------- */
+
+.launcher-input {
+    font-size: 13px;
+    margin: 4px;
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+.launcher-item-inner {
+    padding: 4px 8px;
+    font-size: 12px;
+}
+
+.launcher-item-details {
+    font-size: 10px;
+    color: color-mix(in srgb, currentColor 55%, transparent);
+}
+
+.large-icons {
+    -gtk-icon-size: 20px;
+}
+
+.launcher-key,
+.launcher-plugin-key {
+    font-size: 10px;
+    color: rgba(231, 138, 83, 1);                 /* primary */
+}
+
+.launcher-item-inner:hover,
+.launcher-plugin-inner:hover,
+.launcher-other-menu-item-inner:hover {
+    background: var(--bg-color-hover);
+}
+
+/* Window chrome ----------------------------------------------------- */
+
+.window {
+    padding: 10px;
+}
+
+.monitor,
+.launcher {
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.6);
+}

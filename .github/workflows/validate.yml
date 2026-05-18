@@ -1,0 +1,56 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  palette-and-formats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate palette JSON
+        run: jq empty palette/oxide.json
+
+      - name: Validate every JSON under ports/ and palette/
+        run: |
+          fail=0
+          while IFS= read -r f; do
+            if ! jq empty "$f" 2>err.log; then
+              echo "::error file=$f::invalid JSON"
+              cat err.log
+              fail=1
+            fi
+          done < <(find ports palette -type f -name '*.json')
+          exit $fail
+
+      - name: Validate every TOML under ports/
+        run: |
+          pip install --quiet tomli
+          fail=0
+          while IFS= read -r f; do
+            if ! python -c "import tomli, sys; tomli.loads(open('$f','rb').read().decode())" 2>err.log; then
+              echo "::error file=$f::invalid TOML"
+              cat err.log
+              fail=1
+            fi
+          done < <(find ports -type f -name '*.toml')
+          exit $fail
+
+      - name: Lua syntax check (luac -p)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq lua5.4
+          fail=0
+          while IFS= read -r f; do
+            if ! luac5.4 -p "$f" 2>err.log; then
+              echo "::error file=$f::Lua syntax error"
+              cat err.log
+              fail=1
+            fi
+          done < <(find ports -type f -name '*.lua')
+          exit $fail
+
+      - name: Palette drift check (every hex in ports/ ∈ palette)
+        run: bash scripts/check-palette.sh

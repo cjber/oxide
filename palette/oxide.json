@@ -1,0 +1,43 @@
+{
+  "name": "oxide",
+  "scheme": "dark",
+  "description": "A dark scheme with rust-orange, teal, and peach accents",
+  "colors": {
+    "background":       "#121113",
+    "background_alt":   "#0a0a0a",
+    "surface":          "#1a1a1c",
+    "surface_alt":      "#222222",
+    "border":           "#333333",
+    "foreground":       "#c1c1c1",
+    "foreground_alt":   "#b0b0b0",
+    "foreground_dim":   "#777777",
+    "comment":          "#555555",
+    "muted":            "#999999",
+    "primary":          "#e78a53",
+    "primary_dim":      "#d77a43",
+    "secondary":        "#5f8787",
+    "secondary_bright": "#6f9797",
+    "accent":           "#fbcb97",
+    "destructive":      "#c75a5a",
+    "success":          "#6a9955"
+  },
+  "semantic": {
+    "_comment":   "ANSI / terminal-style aliases for tools that want them",
+    "black":      "#0a0a0a",
+    "red":        "#c75a5a",
+    "green":      "#6a9955",
+    "yellow":     "#fbcb97",
+    "blue":       "#5f8787",
+    "magenta":    "#e78a53",
+    "cyan":       "#6f9797",
+    "white":      "#c1c1c1",
+    "bright_black":   "#555555",
+    "bright_red":     "#c75a5a",
+    "bright_green":   "#6a9955",
+    "bright_yellow":  "#fbcb97",
+    "bright_blue":    "#5f8787",
+    "bright_magenta": "#e78a53",
+    "bright_cyan":    "#6f9797",
+    "bright_white":   "#d0d0d0"
+  }
+}
