@@ -1,4 +1,8 @@
-# Oxide
+<p align="center">
+  <img src=".github/logo.svg" width="160" alt="oxide">
+</p>
+
+<h1 align="center">Oxide</h1>
 
 A dark colour scheme with rust-orange, teal, and peach accents. Designed around a single, restrained palette — one hue family per role, no second variant.
 
