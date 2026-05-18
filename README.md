@@ -42,7 +42,7 @@ The canonical palette lives in [`palette/oxide.json`](palette/oxide.json) (with 
 | Hyprshell | [`ports/hyprshell/styles.css`](ports/hyprshell/styles.css) | drop into `~/.config/hyprshell/styles.css` |
 | Bottom | [`ports/bottom/oxide.toml`](ports/bottom/oxide.toml) | drop into `~/.config/bottom/bottom.toml` |
 
-Most ports were extracted from a working dotfiles setup — they are battle-tested, not theoretical. Issues or new app ports welcome via PR.
+Every port here was extracted from a config I run day-to-day. Issues or new app ports welcome via PR.
 
 ## Adding a port
 
