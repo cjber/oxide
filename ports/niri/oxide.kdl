@@ -1,5 +1,5 @@
 // Oxide palette for Niri. Paste these blocks into ~/.config/niri/config.kdl
-// (merge with your existing `layout {}` etc — these are illustrative defaults).
+// (merge with your existing `layout {}` etc; these are illustrative defaults).
 //
 // Palette reference:
 //   background       #121113   primary      #e78a53

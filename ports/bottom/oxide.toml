@@ -1,4 +1,4 @@
-# bottom — graphs-only scratchpad layout, oxide-aligned colors.
+# bottom: graphs-only scratchpad layout, oxide-aligned colors.
 # Row 1: memory. Row 2: network. No CPU/proc/disk/temp.
 
 [flags]

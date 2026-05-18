@@ -4,7 +4,7 @@
 
 <h1 align="center">Oxide</h1>
 
-A dark colour scheme with rust-orange, teal, and peach accents. Designed around a single, restrained palette — one hue family per role, no second variant.
+A dark colour scheme with rust-orange, teal, and peach accents. One palette, one variant; each role maps to a single hue.
 
 | token              | hex       | swatch |
 | ------------------ | --------- | ------ |
@@ -46,7 +46,7 @@ The canonical palette lives in [`palette/oxide.json`](palette/oxide.json) (with 
 | Hyprshell | [`ports/hyprshell/styles.css`](ports/hyprshell/styles.css) | drop into `~/.config/hyprshell/styles.css` |
 | Bottom | [`ports/bottom/oxide.toml`](ports/bottom/oxide.toml) | drop into `~/.config/bottom/bottom.toml` |
 
-Every port here was extracted from a config I run day-to-day. Issues or new app ports welcome via PR.
+Every port here was extracted from a config I run day to day. Issues or new app ports welcome via PR.
 
 ## Adding a port
 
