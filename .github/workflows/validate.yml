@@ -52,6 +52,11 @@ jobs:
           done < <(find ports -type f -name '*.lua')
           exit $fail
 
+      - name: Lua lint (luacheck)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq lua-check
+          luacheck . --globals vim
+
       - name: Palette drift check (every hex in ports/ ∈ palette)
         run: bash scripts/check-palette.sh
 
