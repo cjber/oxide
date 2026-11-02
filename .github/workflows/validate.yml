@@ -9,7 +9,7 @@ jobs:
   palette-and-formats:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Validate palette JSON
         run: jq empty palette/oxide.json
