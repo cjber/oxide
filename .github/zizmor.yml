@@ -1,0 +1,5 @@
+rules:
+  # Dependabot waits one day before proposing a release; zizmor's default floor is seven.
+  dependabot-cooldown:
+    config:
+      days: 1
