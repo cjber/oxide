@@ -16,12 +16,12 @@ find_position = { fg = "#c2809f", bg = "reset", bold = true, italic = true }
 # Marker
 marker_copied   = { fg = "#5f8787", bg = "#5f8787" }
 marker_cut      = { fg = "#e78a53", bg = "#e78a53" }
-marker_marked   = { fg = "#d5bc95", bg = "#d5bc95" }
+marker_marked   = { fg = "#fbcb97", bg = "#fbcb97" }
 marker_selected = { fg = "#5783a7", bg = "#5783a7" }
 
 # Tab
-tab_active   = { fg = "#121113", bg = "#c7c7cd" }
-tab_inactive = { fg = "#c7c7cd", bg = "#363639" }
+tab_active   = { fg = "#121113", bg = "#c1c1c1" }
+tab_inactive = { fg = "#c1c1c1", bg = "#333333" }
 tab_width    = 1
 
 # Count
@@ -31,7 +31,7 @@ count_selected = { fg = "#121113", bg = "#5783a7" }
 
 # Border
 border_symbol = " "
-border_style  = { fg = "#7a7a7a" }
+border_style  = { fg = "#777777" }
 
 # Highlighting
 syntect_theme = "~/.config/yazi/Catppuccin-mocha.tmTheme"
@@ -44,24 +44,24 @@ syntect_theme = "~/.config/yazi/Catppuccin-mocha.tmTheme"
 [status]
 separator_open  = " "
 separator_close = " "
-separator_style = { fg = "#363639", bg = "#363639" }
+separator_style = { fg = "#333333", bg = "#333333" }
 
 # Mode
 mode_normal = { fg = "#121113", bg = "#5783a7", bold = true }
 mode_select = { fg = "#121113", bg = "#5f8787", bold = true }
-mode_unset  = { fg = "#121113", bg = "#aa627f", bold = true }
+mode_unset  = { fg = "#121113", bg = "#c2809f", bold = true }
 
 # Progress
-progress_label  = { fg = "#c7c7cd", bold = true }
-progress_normal = { fg = "#5783a7", bg = "#363639" }
-progress_error  = { fg = "#e78a53", bg = "#363639" }
+progress_label  = { fg = "#c1c1c1", bold = true }
+progress_normal = { fg = "#5783a7", bg = "#333333" }
+progress_error  = { fg = "#e78a53", bg = "#333333" }
 
 # Permissions
 permissions_t = { fg = "#5783a7" }
-permissions_r = { fg = "#d5bc95" }
+permissions_r = { fg = "#fbcb97" }
 permissions_w = { fg = "#e78a53" }
 permissions_x = { fg = "#5f8787" }
-permissions_s = { fg = "#7f849c" }
+permissions_s = { fg = "#999999" }
 
 # : }}}
 
@@ -71,7 +71,7 @@ permissions_s = { fg = "#7f849c" }
 [select]
 border   = { fg = "#5783a7" }
 active   = { fg = "#c2809f", bold = true }
-inactive = { fg = "#c7c7cd" }
+inactive = { fg = "#c1c1c1" }
 
 # : }}}
 
@@ -80,8 +80,8 @@ inactive = { fg = "#c7c7cd" }
 
 [input]
 border   = { fg = "#5783a7" }
-title    = { fg = "#c7c7cd" }
-value    = { fg = "#c7c7cd" }
+title    = { fg = "#c1c1c1" }
+value    = { fg = "#c1c1c1" }
 selected = { reversed = true }
 
 # : }}}
@@ -91,8 +91,8 @@ selected = { reversed = true }
 
 [completion]
 border   = { fg = "#5783a7" }
-active   = { bg = "#2e2e31" }
-inactive = { fg = "#c7c7cd" }
+active   = { bg = "#2a2a2a" }
+inactive = { fg = "#c1c1c1" }
 
 # Icons
 icon_file    = ""
@@ -106,7 +106,7 @@ icon_command = ""
 
 [task]
 border  = { fg = "#5783a7" }
-title   = { fg = "#c7c7cd" }
+title   = { fg = "#c1c1c1" }
 hovered = { fg = "#c2809f", underline = true }
 
 # : }}}
@@ -116,12 +116,12 @@ hovered = { fg = "#c2809f", underline = true }
 
 [which]
 cols            = 3
-mask            = { bg = "#1a1a1d" }
+mask            = { bg = "#1a1a1c" }
 cand            = { fg = "#5f8787" }
-rest            = { fg = "#8f8f8f" }
+rest            = { fg = "#999999" }
 desc            = { fg = "#c2809f" }
 separator       = "  "
-separator_style = { fg = "#545454" }
+separator_style = { fg = "#555555" }
 
 # : }}}
 
@@ -131,9 +131,9 @@ separator_style = { fg = "#545454" }
 [help]
 on      = { fg = "#5f8787" }
 run     = { fg = "#c2809f" }
-desc    = { fg = "#8f8f8f" }
+desc    = { fg = "#999999" }
 hovered = { reversed = true, bold = true }
-footer  = { fg = "#c7c7cd", bg = "#363639" }
+footer  = { fg = "#c1c1c1", bg = "#333333" }
 
 # : }}}
 
@@ -142,7 +142,7 @@ footer  = { fg = "#c7c7cd", bg = "#363639" }
 
 [notify]
 title_info  = { fg = "#5f8787" }
-title_warn  = { fg = "#d5bc95" }
+title_warn  = { fg = "#fbcb97" }
 title_error = { fg = "#e78a53" }
 
 # Icons
@@ -165,21 +165,21 @@ icon_error = ""
 "bmp"  = { fg = "#c2809f" }
 "c"    = { fg = "#5783a7" }
 "cc"   = { fg = "#e78a53" }
-"cfg"  = { fg = "#d5bc95" }
+"cfg"  = { fg = "#fbcb97" }
 "clj"  = { fg = "#5f8787" }
-"cmake" = { fg = "#d5bc95" }
-"conf" = { fg = "#d5bc95" }
+"cmake" = { fg = "#fbcb97" }
+"conf" = { fg = "#fbcb97" }
 "cpp"  = { fg = "#5783a7" }
 "css"  = { fg = "#5783a7" }
 "csv"  = { fg = "#5f8787" }
 "dart" = { fg = "#5783a7" }
-"db"   = { fg = "#d5bc95" }
+"db"   = { fg = "#fbcb97" }
 "deb"  = { fg = "#e78a53" }
 "diff" = { fg = "#5f8787" }
 "doc"  = { fg = "#e78a53" }
 "docx" = { fg = "#e78a53" }
-"dump" = { fg = "#d5bc95" }
-"ejs"  = { fg = "#d5bc95" }
+"dump" = { fg = "#fbcb97" }
+"ejs"  = { fg = "#fbcb97" }
 "epub" = { fg = "#e78a53" }
 "ex"   = { fg = "#c2809f" }
 "exe"  = { fg = "#e78a53" }
@@ -190,18 +190,18 @@ icon_error = ""
 "hpp"  = { fg = "#c2809f" }
 "hs"   = { fg = "#c2809f" }
 "html" = { fg = "#e78a53" }
-"ico"  = { fg = "#d5bc95" }
-"ini"  = { fg = "#d5bc95" }
+"ico"  = { fg = "#fbcb97" }
+"ini"  = { fg = "#fbcb97" }
 "jar"  = { fg = "#e78a53" }
 "java" = { fg = "#e78a53" }
 "jpeg" = { fg = "#c2809f" }
 "jpg"  = { fg = "#c2809f" }
-"js"   = { fg = "#d5bc95" }
-"json" = { fg = "#d5bc95" }
+"js"   = { fg = "#fbcb97" }
+"json" = { fg = "#fbcb97" }
 "jsx"  = { fg = "#5783a7" }
 "kt"   = { fg = "#5783a7" }
-"lock" = { fg = "#8f8f8f" }
-"log"  = { fg = "#8f8f8f" }
+"lock" = { fg = "#999999" }
+"log"  = { fg = "#999999" }
 "lua"  = { fg = "#5783a7" }
 "m4a"  = { fg = "#5783a7" }
 "m4v"  = { fg = "#5783a7" }
@@ -211,7 +211,7 @@ icon_error = ""
 "mp3"  = { fg = "#5783a7" }
 "mp4"  = { fg = "#5783a7" }
 "nix"  = { fg = "#5783a7" }
-"o"    = { fg = "#8f8f8f" }
+"o"    = { fg = "#999999" }
 "ogg"  = { fg = "#5783a7" }
 "pdf"  = { fg = "#e78a53" }
 "php"  = { fg = "#c2809f" }
@@ -222,27 +222,27 @@ icon_error = ""
 "pptx" = { fg = "#e78a53" }
 "ps1"  = { fg = "#e78a53" }
 "psd"  = { fg = "#5783a7" }
-"py"   = { fg = "#d5bc95" }
+"py"   = { fg = "#fbcb97" }
 "rb"   = { fg = "#e78a53" }
 "rpm"  = { fg = "#e78a53" }
 "rs"   = { fg = "#e78a53" }
 "rss"  = { fg = "#e78a53" }
-"rtf"  = { fg = "#8f8f8f" }
+"rtf"  = { fg = "#999999" }
 "sass" = { fg = "#e78a53" }
 "scss" = { fg = "#e78a53" }
 "sh"   = { fg = "#5f8787" }
 "slim" = { fg = "#e78a53" }
-"sql"  = { fg = "#d5bc95" }
-"sqlite" = { fg = "#d5bc95" }
+"sql"  = { fg = "#fbcb97" }
+"sqlite" = { fg = "#fbcb97" }
 "sty"  = { fg = "#5f8787" }
 "svg"  = { fg = "#c2809f" }
 "tar"  = { fg = "#e78a53" }
 "tex"  = { fg = "#5f8787" }
 "tgz"  = { fg = "#e78a53" }
-"toml" = { fg = "#d5bc95" }
+"toml" = { fg = "#fbcb97" }
 "ts"   = { fg = "#5783a7" }
 "tsx"  = { fg = "#5783a7" }
-"txt"  = { fg = "#8f8f8f" }
+"txt"  = { fg = "#999999" }
 "vim"  = { fg = "#5f8787" }
 "wav"  = { fg = "#5783a7" }
 "webm" = { fg = "#5783a7" }
@@ -251,8 +251,8 @@ icon_error = ""
 "xlsx" = { fg = "#5f8787" }
 "xml"  = { fg = "#e78a53" }
 "xz"   = { fg = "#e78a53" }
-"yaml" = { fg = "#d5bc95" }
-"yml"  = { fg = "#d5bc95" }
+"yaml" = { fg = "#fbcb97" }
+"yml"  = { fg = "#fbcb97" }
 "zip"  = { fg = "#e78a53" }
 "zsh"  = { fg = "#5f8787" }
 
