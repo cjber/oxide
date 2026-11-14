@@ -23,6 +23,10 @@ local p = {
   muted = "#999999",
   red = "#c75a5a",
   green = "#6a9955",
+  diff_add = "#1a2a1a",
+  diff_change = "#2a2a1a",
+  diff_delete = "#2a1a1a",
+  diff_text = "#3a3a1a",
   none = "NONE",
 }
 
@@ -204,10 +208,10 @@ hl("DiagnosticSignHint", { fg = p.muted })
 hl("GitSignsAdd", { fg = p.green })
 hl("GitSignsChange", { fg = p.peach })
 hl("GitSignsDelete", { fg = p.red })
-hl("DiffAdd", { bg = "#1a2a1a" })
-hl("DiffChange", { bg = "#2a2a1a" })
-hl("DiffDelete", { bg = "#2a1a1a" })
-hl("DiffText", { bg = "#3a3a1a" })
+hl("DiffAdd", { bg = p.diff_add })
+hl("DiffChange", { bg = p.diff_change })
+hl("DiffDelete", { bg = p.diff_delete })
+hl("DiffText", { bg = p.diff_text })
 
 -- Completion (blink.cmp)
 hl("BlinkCmpMenu", { fg = p.fg, bg = p.bg1 })
@@ -269,8 +273,8 @@ hl("NotifyERRORTitle", { fg = p.red })
 hl("NotifyERRORIcon", { fg = p.red })
 
 -- Neogit
-hl("NeogitDiffAdd", { fg = p.green, bg = "#1a2a1a" })
-hl("NeogitDiffDelete", { fg = p.red, bg = "#2a1a1a" })
+hl("NeogitDiffAdd", { fg = p.green, bg = p.diff_add })
+hl("NeogitDiffDelete", { fg = p.red, bg = p.diff_delete })
 hl("NeogitHunkHeader", { fg = p.teal, bg = p.bg2 })
 hl("NeogitBranch", { fg = p.orange, bold = true })
 hl("NeogitRemote", { fg = p.teal })

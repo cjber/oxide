@@ -68,7 +68,7 @@ jobs:
           luacheck . --globals vim
 
       - name: Palette drift check (every hex in ports/ ∈ palette)
-        run: bash scripts/check-palette.sh
+        run: bash scripts/check-palette.sh --strict
 
       - name: Prose check (no em-dashes, no AI-tell words)
         run: bash scripts/check-prose.sh

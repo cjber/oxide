@@ -7,6 +7,7 @@
     "background_alt":   "#0a0a0a",
     "surface":          "#1a1a1c",
     "surface_alt":      "#222222",
+    "surface_raised":   "#2a2a2a",
     "border":           "#333333",
     "foreground":       "#c1c1c1",
     "foreground_alt":   "#b0b0b0",
@@ -18,8 +19,15 @@
     "secondary":        "#5f8787",
     "secondary_bright": "#6f9797",
     "accent":           "#fbcb97",
+    "accent_blue":      "#5783a7",
+    "accent_pink":      "#c2809f",
     "destructive":      "#c75a5a",
-    "success":          "#6a9955"
+    "success":          "#6a9955",
+    "brand_discord":    "#5865f2",
+    "diff_add":         "#1a2a1a",
+    "diff_change":      "#2a2a1a",
+    "diff_delete":      "#2a1a1a",
+    "diff_text":        "#3a3a1a"
   },
   "semantic": {
     "_comment":   "ANSI / terminal-style aliases for tools that want them",
