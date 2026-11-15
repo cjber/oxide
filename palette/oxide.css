@@ -4,6 +4,7 @@
     --oxide-background-alt:   #0a0a0a;
     --oxide-surface:          #1a1a1c;
     --oxide-surface-alt:      #222222;
+    --oxide-surface-raised:   #2a2a2a;
     --oxide-border:           #333333;
 
     /* Text */
@@ -19,6 +20,15 @@
     --oxide-secondary:        #5f8787; /* teal */
     --oxide-secondary-bright: #6f9797;
     --oxide-accent:           #fbcb97; /* peach */
+    --oxide-accent-blue:      #5783a7;
+    --oxide-accent-pink:      #c2809f;
     --oxide-destructive:      #c75a5a;
     --oxide-success:          #6a9955;
+
+    /* Brands and diff backgrounds */
+    --oxide-brand-discord:    #5865f2;
+    --oxide-diff-add:         #1a2a1a;
+    --oxide-diff-change:      #2a2a1a;
+    --oxide-diff-delete:      #2a1a1a;
+    --oxide-diff-text:        #3a3a1a;
 }

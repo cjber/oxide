@@ -12,6 +12,7 @@ A dark colour scheme with rust-orange, teal, and peach accents. One palette, one
 | `background_alt`   | `#0a0a0a` | ![](https://img.shields.io/badge/-0a0a0a-0a0a0a?style=flat-square) |
 | `surface`          | `#1a1a1c` | ![](https://img.shields.io/badge/-1a1a1c-1a1a1c?style=flat-square) |
 | `surface_alt`      | `#222222` | ![](https://img.shields.io/badge/-222222-222222?style=flat-square) |
+| `surface_raised`   | `#2a2a2a` | ![](https://img.shields.io/badge/-2a2a2a-2a2a2a?style=flat-square) |
 | `border`           | `#333333` | ![](https://img.shields.io/badge/-333333-333333?style=flat-square) |
 | `foreground`       | `#c1c1c1` | ![](https://img.shields.io/badge/-c1c1c1-c1c1c1?style=flat-square) |
 | `foreground_alt`   | `#b0b0b0` | ![](https://img.shields.io/badge/-b0b0b0-b0b0b0?style=flat-square) |
@@ -23,8 +24,15 @@ A dark colour scheme with rust-orange, teal, and peach accents. One palette, one
 | `secondary`        | `#5f8787` | ![](https://img.shields.io/badge/-5f8787-5f8787?style=flat-square) |
 | `secondary_bright` | `#6f9797` | ![](https://img.shields.io/badge/-6f9797-6f9797?style=flat-square) |
 | `accent`           | `#fbcb97` | ![](https://img.shields.io/badge/-fbcb97-fbcb97?style=flat-square) |
+| `accent_blue`      | `#5783a7` | ![](https://img.shields.io/badge/-5783a7-5783a7?style=flat-square) |
+| `accent_pink`      | `#c2809f` | ![](https://img.shields.io/badge/-c2809f-c2809f?style=flat-square) |
 | `destructive`      | `#c75a5a` | ![](https://img.shields.io/badge/-c75a5a-c75a5a?style=flat-square) |
 | `success`          | `#6a9955` | ![](https://img.shields.io/badge/-6a9955-6a9955?style=flat-square) |
+| `brand_discord`    | `#5865f2` | ![](https://img.shields.io/badge/-5865f2-5865f2?style=flat-square) |
+| `diff_add`         | `#1a2a1a` | ![](https://img.shields.io/badge/-1a2a1a-1a2a1a?style=flat-square) |
+| `diff_change`      | `#2a2a1a` | ![](https://img.shields.io/badge/-2a2a1a-2a2a1a?style=flat-square) |
+| `diff_delete`      | `#2a1a1a` | ![](https://img.shields.io/badge/-2a1a1a-2a1a1a?style=flat-square) |
+| `diff_text`        | `#3a3a1a` | ![](https://img.shields.io/badge/-3a3a1a-3a3a1a?style=flat-square) |
 
 The canonical palette lives in [`palette/oxide.json`](palette/oxide.json) (with terminal ANSI aliases) and [`palette/oxide.css`](palette/oxide.css) (CSS variables).
 

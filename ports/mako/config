@@ -18,7 +18,7 @@ max-visible=5
 default-timeout=5000
 ignore-timeout=0
 font=JetBrainsMono Nerd Font 11
-text-color=#c7c7cd
+text-color=#c1c1c1
 progress-color=over #e78a53
 group-by=app-name
 max-history=20
@@ -27,17 +27,17 @@ on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga --really-qui
 [urgency=low]
 border-color=#5f8787
 background-color=#121113e6
-text-color=#8f8f8f
+text-color=#999999
 
 [urgency=normal]
-border-color=#d5bc95
+border-color=#fbcb97
 background-color=#121113ee
-text-color=#c7c7cd
+text-color=#c1c1c1
 
 [urgency=high]
 border-color=#e78a53
 background-color=#121113f5
-text-color=#d5bc95
+text-color=#fbcb97
 default-timeout=0
 
 [category=mpd]

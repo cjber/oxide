@@ -1,15 +1,15 @@
 /* Shadcn Theme Colors for Waybar */
 
 @define-color base #121113;
-@define-color mantle #121212;
+@define-color mantle #121113;
 @define-color crust #0a0a0a;
 
 @define-color surface0 #222222;
 @define-color surface1 #333333;
-@define-color surface2 #444444;
+@define-color surface2 #333333;
 
 @define-color overlay0 #555555;
-@define-color overlay1 #666666;
+@define-color overlay1 #777777;
 @define-color overlay2 #777777;
 
 @define-color text #c1c1c1;
